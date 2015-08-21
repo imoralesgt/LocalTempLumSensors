@@ -45,7 +45,7 @@ void showSplashScreen(void){
   display.println("  a la Arquitectura");
   display.setCursor(0, 33);
   display.setTextSize(2);
-  display.println(" SENSOR");
+  display.println("  SENSOR");
   display.setTextSize(1);
   display.println("Temperatura + Humedad");
   display.display();
