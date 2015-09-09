@@ -326,4 +326,29 @@ NoConn ~ 7150 2050
 NoConn ~ 7150 1950
 NoConn ~ 7150 1750
 NoConn ~ 7150 1550
+$Comp
+L CONN_01X02 P7
+U 1 1 55F0AEF3
+P 3500 750
+F 0 "P7" H 3500 900 50  0000 C CNN
+F 1 "POWER" V 3600 750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3500 750 60  0001 C CNN
+F 3 "" H 3500 750 60  0000 C CNN
+	1    3500 750 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1000 3550 1000
+Wire Wire Line
+	3550 1000 3550 950 
+Connection ~ 4100 1000
+Wire Wire Line
+	4550 1000 4300 1000
+Wire Wire Line
+	4300 1000 4300 1300
+Wire Wire Line
+	4300 1300 3450 1300
+Wire Wire Line
+	3450 1300 3450 950 
+Connection ~ 4550 1000
 $EndSCHEMATC

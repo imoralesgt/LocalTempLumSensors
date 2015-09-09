@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 09/09/2015 16:07:55
+
+BeginCmp
+TimeStamp = /55DCE6D6;
+Reference = P1;
+ValeurCmp = OLED DISPLAY;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DCE7A5;
+Reference = P2;
+ValeurCmp = BMP 180;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DCEACD;
+Reference = P3;
+ValeurCmp = BH1750;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DCECBB;
+Reference = P4;
+ValeurCmp = ARDUINO_LEFT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E4D5CA;
+Reference = P5;
+ValeurCmp = ARDUINO_I2C;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DCED3A;
+Reference = P6;
+ValeurCmp = ARDUINO_RIGHT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F0AEF3;
+Reference = P7;
+ValeurCmp = POWER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+EndListe
